@@ -7,7 +7,8 @@ var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 
 // Connection URL
-var url = 'mongodb://localhost:27017/Sakepedia';
+var url = 'mongodb://tk2-410-46049.vs.sakura.ne.jp/otukare';
+// var url = 'mongodb://localhost:27017/otukare';
 
 // Use connect method to connect to the Server
 MongoClient.connect(url, function(err, mongodb) {
